@@ -34,7 +34,7 @@ class Product {
     }
 
     protected function checkAvailability($_current_stock){
-        if (_current_stock == 0){
+        if ($_current_stock == 0){
             return false;
         }   else{
             return true;

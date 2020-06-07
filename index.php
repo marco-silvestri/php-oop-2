@@ -11,7 +11,7 @@ $new_smartphone = new Smartphone(
     'Redmi 5', 
     299, 
     12, 
-    50 
+    50,
 );
 
-var_dump($new_smartphone);
+echo $new_smartphone->getExcerpt();
